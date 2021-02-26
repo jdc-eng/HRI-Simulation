@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HRI_SIM",
+			"Path": "C:\\Users\\Jack Crespo\\Desktop\\HRI WORKING\\Source\\HRI_SIM.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HRI_SIMEditor",
+			"Path": "C:\\Users\\Jack Crespo\\Desktop\\HRI WORKING\\Source\\HRI_SIMEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
