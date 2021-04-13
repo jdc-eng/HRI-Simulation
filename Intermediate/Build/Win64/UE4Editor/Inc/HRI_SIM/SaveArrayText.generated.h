@@ -13,18 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HRI_SIM_SaveArrayText_generated_h
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_SPARSE_DATA
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_SPARSE_DATA
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSaveArrayData);
 
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSaveArrayData);
 
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_INCLASS_NO_PURE_DECLS \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSaveArrayText(); \
 	friend struct Z_Construct_UClass_USaveArrayText_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(USaveArrayText)
 
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_INCLASS \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUSaveArrayText(); \
 	friend struct Z_Construct_UClass_USaveArrayText_Statics; \
@@ -42,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(USaveArrayText)
 
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_STANDARD_CONSTRUCTORS \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USaveArrayText(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USaveArrayText) \
@@ -55,7 +55,7 @@ private: \
 public:
 
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_ENHANCED_CONSTRUCTORS \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USaveArrayText(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -68,28 +68,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USaveArrayText); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USaveArrayText)
 
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_PRIVATE_PROPERTY_OFFSET
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_12_PROLOG
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_GENERATED_BODY_LEGACY \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_PRIVATE_PROPERTY_OFFSET
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_12_PROLOG
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_PRIVATE_PROPERTY_OFFSET \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_SPARSE_DATA \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_INCLASS \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_STANDARD_CONSTRUCTORS \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_PRIVATE_PROPERTY_OFFSET \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_SPARSE_DATA \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_INCLASS \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_GENERATED_BODY \
+#define HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_PRIVATE_PROPERTY_OFFSET \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_SPARSE_DATA \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_INCLASS_NO_PURE_DECLS \
-	HRI_WORKING_Source_HRI_SIM_SaveArrayText_h_15_ENHANCED_CONSTRUCTORS \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_PRIVATE_PROPERTY_OFFSET \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_SPARSE_DATA \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_INCLASS_NO_PURE_DECLS \
+	HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -97,7 +97,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> HRI_SIM_API UClass* StaticClass<class USaveArrayText>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HRI_WORKING_Source_HRI_SIM_SaveArrayText_h
+#define CURRENT_FILE_ID HRI_Simulation_jack_Source_HRI_SIM_SaveArrayText_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

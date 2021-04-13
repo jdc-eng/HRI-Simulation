@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHRI_SIM_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xEAFD7D64,
+				0x0E865067,
 				0x127C24B1,
 				METADATA_PARAMS(nullptr, 0)
 			};
