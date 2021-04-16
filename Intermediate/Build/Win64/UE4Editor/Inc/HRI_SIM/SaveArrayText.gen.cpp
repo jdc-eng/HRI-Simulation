@@ -47,41 +47,41 @@ void EmptyLinkFunctionForGeneratedCodeSaveArrayText() {}
 			bool AllowOverWriting;
 			bool ReturnValue;
 		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_SaveDirectory;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_FileName;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_SaveText_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SaveText;
 		static void NewProp_AllowOverWriting_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_AllowOverWriting;
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SaveText;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_SaveText_Inner;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_FileName;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_SaveDirectory;
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	void Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((SaveArrayText_eventSaveArrayData_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(SaveArrayText_eventSaveArrayData_Parms), &Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveDirectory = { "SaveDirectory", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SaveArrayText_eventSaveArrayData_Parms, SaveDirectory), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_FileName = { "FileName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SaveArrayText_eventSaveArrayData_Parms, FileName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText_Inner = { "SaveText", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText = { "SaveText", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SaveArrayText_eventSaveArrayData_Parms, SaveText), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
 	void Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_AllowOverWriting_SetBit(void* Obj)
 	{
 		((SaveArrayText_eventSaveArrayData_Parms*)Obj)->AllowOverWriting = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_AllowOverWriting = { "AllowOverWriting", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(SaveArrayText_eventSaveArrayData_Parms), &Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_AllowOverWriting_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText = { "SaveText", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SaveArrayText_eventSaveArrayData_Parms, SaveText), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText_Inner = { "SaveText", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_FileName = { "FileName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SaveArrayText_eventSaveArrayData_Parms, FileName), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveDirectory = { "SaveDirectory", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SaveArrayText_eventSaveArrayData_Parms, SaveDirectory), METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((SaveArrayText_eventSaveArrayData_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(SaveArrayText_eventSaveArrayData_Parms), &Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_AllowOverWriting,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_FileName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveDirectory,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_FileName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_SaveText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_AllowOverWriting,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USaveArrayText_SaveArrayData_Statics::Function_MetaDataParams[] = {
@@ -119,7 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeSaveArrayText() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_HRI_SIM,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_USaveArrayText_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_USaveArrayText_SaveArrayData, "SaveArrayData" }, // 3449905518
+		{ &Z_Construct_UFunction_USaveArrayText_SaveArrayData, "SaveArrayData" }, // 684591637
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USaveArrayText_Statics::Class_MetaDataParams[] = {
@@ -155,7 +155,7 @@ void EmptyLinkFunctionForGeneratedCodeSaveArrayText() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USaveArrayText, 3103814964);
+	IMPLEMENT_CLASS(USaveArrayText, 324522851);
 	template<> HRI_SIM_API UClass* StaticClass<USaveArrayText>()
 	{
 		return USaveArrayText::StaticClass();

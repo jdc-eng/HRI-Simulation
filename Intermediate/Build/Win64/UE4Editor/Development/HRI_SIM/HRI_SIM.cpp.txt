@@ -1,2 +1,2 @@
-C:\Users\Jack Crespo\Desktop\HRI WORKING\Intermediate\Build\Win64\UE4Editor\Development\HRI_SIM\Definitions.HRI_SIM.h
-C:\Users\Jack Crespo\Desktop\HRI WORKING\Source\HRI_SIM\HRI_SIM.h
+C:\Users\shrey\Desktop\ASL research\HRI-Simulation-jack\HRI-Simulation-jack\Intermediate\Build\Win64\UE4Editor\Development\HRI_SIM\Definitions.HRI_SIM.h
+C:\Users\shrey\Desktop\ASL research\HRI-Simulation-jack\HRI-Simulation-jack\Source\HRI_SIM\HRI_SIM.h
