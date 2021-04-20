@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HRI_SIM.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{92B2983A-FA72-4BC3-A01F-AB6C6C99F52B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HRI_SIM.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HRI_SIMEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Clickputs.csv" />
+    <None Include="..\..\Test.csv" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{753C3239-1C22-4DFE-8432-0BD0D2243065}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HRI_SIM">
+      <UniqueIdentifier>{5B72494C-DE3D-4955-A41C-F1D8579B13EE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HRI_SIM\HRI_SIM.Build.cs">
+      <Filter>Source\HRI_SIM</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HRI_SIM\HRI_SIM.cpp">
+      <Filter>Source\HRI_SIM</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HRI_SIM\HRI_SIM.h">
+      <Filter>Source\HRI_SIM</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HRI_SIM\SaveArrayText.cpp">
+      <Filter>Source\HRI_SIM</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HRI_SIM\SaveArrayText.h">
+      <Filter>Source\HRI_SIM</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
